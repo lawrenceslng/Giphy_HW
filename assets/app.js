@@ -37,7 +37,7 @@ $(document).on("click",".topic",function()
             var rating = res.data[i].rating;
             var stillImg = res.data[i].images.fixed_height_still.url;
             var aniImg = res.data[i].images.fixed_height.url;
-            newDiv.html("<span>Rating: "+rating+"</span><img src="+stillImg+" data-still='"+stillImg+"' data-animate='" +aniImg+"' data-state='still'>");
+            newDiv.html("<span>Rating: "+rating+"</span><br><img src="+stillImg+" data-still='"+stillImg+"' data-animate='" +aniImg+"' data-state='still'>");
             //debugger;
             //<img class='hide' src="+res.data[i].images.fixed_height.url
             console.log(i);

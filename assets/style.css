@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+form{
+    padding: 10px;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+}
+#addTopic{
+    background-color: white;
+    color: black;
+}
+#intro{
+    padding: 10px;
+}
